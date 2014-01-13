@@ -1,16 +1,9 @@
-# Push and pop directories on directory stack
-alias pu='pushd'
-alias po='popd'
-
 # Basic directory operations
 alias ...='cd ../..'
 alias -- -='cd -'
 
 # Super user
 alias _='sudo'
-alias please='sudo'
-
-#alias g='grep -in'
 
 # Show history
 if [ "$HIST_STAMPS" = "mm/dd/yyyy" ]
@@ -26,11 +19,23 @@ else
     alias history='fc -l 1'
 fi
 # List direcory contents
-alias lsa='ls -lah'
-alias l='ls -la'
+alias l='ls -lah'
 alias ll='ls -l'
 alias la='ls -lA'
 alias sl=ls # often screw this up
 
-alias afind='ack-grep -il'
+# Custom aliases.
+alias horza='ssh horza'
+alias raspi='ssh raspi'
+alias raspi_r='ssh raspi_r'
+alias hardin='ssh hardin'
+alias pingoo='ping www.google.com'
+alias ....='../../..'
+alias update='brew -v update && brew upgrade'
 
+# Mac OS X application aliases for use in shell.
+alias firefox='open -a "Firefox"'
+alias safari='open -a "Safari"'
+alias subl='open -a "Sublime Text 2"'
+alias preview='open -a "Preview"'
+alias markd='open -a "LightPaper"'
