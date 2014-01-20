@@ -129,11 +129,11 @@ function pushdf() {
   pushd "$(pfd)"
 }
 
-function quick-look() {
+function ql() {
   (( $# > 0 )) && qlmanage -p $* &>/dev/null &
 }
 
-function man-preview() {
+function manp() {
   man -t "$@" | open -f -a Preview
 }
 

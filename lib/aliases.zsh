@@ -29,9 +29,10 @@ alias horza='ssh horza'
 alias raspi='ssh raspi'
 alias raspi_r='ssh raspi_r'
 alias hardin='ssh hardin'
-alias pingoo='ping www.google.com'
+alias pingoo='ping -c 5 www.google.com'
 alias ....='../../..'
 alias update='brew -v update && brew upgrade'
+alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 
 # Mac OS X application aliases for use in shell.
 alias firefox='open -a "Firefox"'
