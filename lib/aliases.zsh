@@ -33,6 +33,7 @@ alias pingoo='ping -c 5 www.google.com'
 alias ....='../../..'
 alias update='brew -v update && brew upgrade'
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
+alias irc='weechat-curses'
 
 # Mac OS X application aliases for use in shell.
 alias firefox='open -a "Firefox"'
@@ -40,3 +41,15 @@ alias safari='open -a "Safari"'
 alias subl='open -a "Sublime Text 2"'
 alias preview='open -a "Preview"'
 alias markd='open -a "LightPaper"'
+
+# Git aliases.
+alias gpush='git push'
+alias gpull='git pull'
+alias gcommit='git commit'
+alias gadd='git add'
+alias gbranch='git branch'
+alias gcheckout='git checkout'
+alias gstatus='git status'
+alias grm='git rm'
+alias gdel='git rm --cached'
+alias gmv='git mv'
