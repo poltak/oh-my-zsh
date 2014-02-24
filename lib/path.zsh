@@ -13,7 +13,7 @@ HOMEBREW_BIN=(/usr/local/bin /usr/local/sbin)
 SYSTEM_BIN=(/bin /usr/bin /sbin /usr/sbin)
 
 # Where android-sdk platform-tools are installed.
-ANDROID_SDK_BIN=($HOME/Library/Developer/Xamarin/android-sdk-mac_x86/platform-tools)
+ANDROID_SDK_BIN=(/usr/local/opt/android-sdk/platform-tools)
 
 # Actually set the path in Z shell.
 typeset -U path
