@@ -40,7 +40,7 @@ alias aria2tor='aria2c --conf-path=${HOME}/.aria2/aria2.torrent'
 # Mac OS X application aliases for use in shell.
 alias firefox='open -a "Firefox"'
 alias safari='open -a "Safari"'
-alias subl='open -a "Sublime Text 2"'
+alias subl='open -a "Sublime Text"'
 alias preview='open -a "Preview"'
 alias markd='open -a "LightPaper"'
 
