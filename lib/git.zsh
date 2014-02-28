@@ -140,4 +140,18 @@ POST_1_7_2_GIT=$(git_compare_version "1.7.2")
 #clean up the namespace slightly by removing the checker function
 unset -f git_compare_version
 
-
+# Git aliases.
+alias gpush='git push'
+alias gpull='git pull'
+alias gcommit='git commit'
+alias gadd='git add'
+alias gbranch='git branch'
+alias gcheckout='git checkout'
+alias gstatus='git status'
+alias gstat='gstatus -s'
+alias grm='git rm'
+alias gdel='git rm --cached'
+alias gmv='git mv'
+alias glog='git log --decorate'
+alias gdiff='git diff --no-prefix'
+alias gpatch='git patch'
