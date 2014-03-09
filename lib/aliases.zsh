@@ -2,6 +2,11 @@
 alias ...='cd ../..'
 alias -- -='cd -'
 
+# Prevent headaches
+alias cp='cp -v'
+alias rm='rm -v'
+alias mv='mv -v'
+
 # Super user
 alias _='sudo'
 
@@ -19,9 +24,10 @@ else
     alias history='fc -l 1'
 fi
 # List direcory contents
+alias lsa='ls -lah'
 alias l='ls -lah'
-alias ll='ls -l'
-alias la='ls -lA'
+alias ll='ls -lh'
+alias la='ls -lAh'
 alias sl=ls # often screw this up
 
 # Custom aliases.

@@ -1,7 +1,7 @@
 # Custom path additions.
 
-# Where my own scripts are synced.
-DROPBOX_BIN=($HOME/Dropbox/bin)
+# Where my own scripts reside.
+USER_BIN=($HOME/Dropbox/bin $HOME/bin)
 
 # Where mactex puts its bin.
 LATEX_BIN=(/usr/local/texlive/2013/bin/universal-darwin)
@@ -17,4 +17,4 @@ ANDROID_SDK_BIN=(/usr/local/opt/android-sdk/platform-tools)
 
 # Actually set the path in Z shell.
 typeset -U path
-path=($DROPBOX_BIN $LATEX_BIN $HOMEBREW_BIN $SYSTEM_BIN $ANDROID_SDK_BIN)
+path=($USER_BIN $LATEX_BIN $HOMEBREW_BIN $SYSTEM_BIN $ANDROID_SDK_BIN)
