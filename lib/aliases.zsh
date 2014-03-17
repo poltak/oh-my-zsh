@@ -32,9 +32,8 @@ alias sl=ls # often screw this up
 
 # Custom aliases.
 alias horza='ssh horza'
-alias raspi='ssh raspi'
-alias raspi_r='ssh raspi_r'
-alias hardin='ssh hardin'
+alias raspi='mosh raspi'
+alias raspi_r='mosh raspi_r'
 alias pingoo='ping -c 5 www.google.com'
 alias ....='../../..'
 alias update='brew -v update && brew upgrade'
