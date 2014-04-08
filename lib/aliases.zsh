@@ -36,6 +36,7 @@ alias brewin='brew -v install'
 alias myip='dig +short myip.opendns.com @resolver1.opendns.com'
 alias irc='weechat-curses'
 alias aria2tor='aria2c --conf-path=${HOME}/.aria2/aria2.torrent'
+alias rm='trash'
 
 # Mac OS X application aliases for use in shell.
 alias firefox='open -a "Firefox"'
