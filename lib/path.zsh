@@ -12,12 +12,9 @@ HOMEBREW_BIN=(/usr/local/bin /usr/local/sbin)
 # Where OS X puts its bins.
 SYSTEM_BIN=(/bin /usr/bin /sbin /usr/sbin)
 
-# Where android-sdk platform-tools are installed.
-ANDROID_SDK_BIN=(/usr/local/opt/android-sdk/platform-tools)
-
 # Where Ruby gem executables are installed.
 RUBY_GEMS_BIN=(/usr/local/opt/ruby/bin)
 
 # Actually set the path in Z shell.
 typeset -U path
-path=($USER_BIN $LATEX_BIN $HOMEBREW_BIN $RUBY_GEMS_BIN $SYSTEM_BIN $ANDROID_SDK_BIN)
+path=($USER_BIN $LATEX_BIN $HOMEBREW_BIN $RUBY_GEMS_BIN $SYSTEM_BIN)
