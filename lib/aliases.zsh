@@ -18,6 +18,7 @@ then
 else
     alias history='fc -l 1'
 fi
+
 # List direcory contents
 alias lsa='ls -lah'
 alias l='ls -lah'
@@ -44,6 +45,4 @@ alias firefox='open -a "Firefox"'
 alias safari='open -a "Safari"'
 alias subl='open -a "Sublime Text"'
 alias preview='open -a "Preview"'
-alias markd='open -a "LightPaper"'
 alias lock='/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend'
-alias vim='mvim'
