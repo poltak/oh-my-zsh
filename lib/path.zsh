@@ -16,6 +16,9 @@ SYSTEM_BIN=(/bin /usr/bin /sbin /usr/sbin)
 GHC_VERSION=7.8.3
 GHC_BIN=(${HOME}/.cabal/bin /opt/homebrew-cask/Caskroom/ghc/${GHC_VERSION}-r1/ghc-${GHC_VERSION}.app/Contents/bin)
 
+# Storm path
+STORM_BIN=(${HOME}/bin/apache-storm-0.9.4/bin)
+
 # Actually set the path in Z shell.
 typeset -U path
-path=($USER_BIN $LATEX_BIN $HOMEBREW_BIN $SYSTEM_BIN $GHC_BIN)
+path=($USER_BIN $LATEX_BIN $HOMEBREW_BIN $SYSTEM_BIN $GHC_BIN $STORM_BIN)
