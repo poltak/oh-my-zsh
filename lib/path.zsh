@@ -19,6 +19,9 @@ GHC_BIN=(${HOME}/.cabal/bin /opt/homebrew-cask/Caskroom/ghc/${GHC_VERSION}-r1/gh
 # Storm path
 STORM_BIN=(${HOME}/bin/apache-storm-0.9.4/bin)
 
+# Spark path
+SPARK_BIN=(${HOME}/bin/spark-1.3.1-bin-hadoop2.6/bin)
+
 # Actually set the path in Z shell.
 typeset -U path
-path=($USER_BIN $LATEX_BIN $HOMEBREW_BIN $SYSTEM_BIN $GHC_BIN $STORM_BIN)
+path=($USER_BIN $LATEX_BIN $HOMEBREW_BIN $SYSTEM_BIN $GHC_BIN $STORM_BIN $SPARK_BIN)
